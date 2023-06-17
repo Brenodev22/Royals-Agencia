@@ -363,6 +363,24 @@ h3 {
 
 /* Media Queries */
 
+@media(min-width: 370px) {
+    .insta-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .insta-grid>div {
+        height: 500px;
+    }
+}
+
+@media(min-width: 420px) {
+    .insta-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .insta-grid>div {
+        height: 500px;
+    }
+}
+
 @media(min-width: 450px) {
     .work-bottom {
         grid-template-columns: repeat(2, 1fr);
@@ -437,7 +455,7 @@ h3 {
     }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 932px) {
     .insta-grid {
         grid-template-columns: repeat(3, 1fr);
     }

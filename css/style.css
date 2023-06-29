@@ -477,7 +477,7 @@ h3 {
     .insta-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-    .insta-grid>div {
+    s .insta-grid>div {
         height: 500px;
     }
 }

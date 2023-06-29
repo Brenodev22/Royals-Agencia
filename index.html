@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royals Agenciamento</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -152,9 +153,10 @@
                         <p class="lead"><i class="fas fa-phone-alt"></i> +55 (61) 99196-5178</p>
                         <p class="lead"><i class="fas fa-envelope"></i> royalsagenciamento@outlook.com</p>
                         <p class="lead"><i class="fas fa-map"></i> Quadra 45 Lote 03 - Sala 5 Jardim Barragem II, <br>Águas Lindas de Goiás</p>
-                        <form action="">
+                        <form method="POST" class="b7validator">
                             <input type="text" class="form-control" placeholder="Nome">
                             <input type="email" class="form-control" placeholder="Email">
+                            <textarea name="text" type="text" id="message" class="form-control" cols="150" rows="5" style="resize: none;" placeholder="Escreva sua mensagem aqui..."></textarea>
                             <input type="submit" class="btn-submit btn" value="Enviar">
                         </form>
                     </div>
@@ -197,7 +199,9 @@
             <div class="footer-content">
                 <div>
                     <h3>ROYAL'S AGENCIAMENTO</h3>
-                    <div><img src="images/arte.png"></div>
+                    <div>
+                        <img src="images/arte.png">
+                    </div>
                 </div>
                 <div>
                     <h3>Links</h3>

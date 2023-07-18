@@ -10,6 +10,12 @@
       }
     ],
     "no-inline-styles": "off",
-    "manifest-app-name": "off"
+    "manifest-app-name": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   }
 }

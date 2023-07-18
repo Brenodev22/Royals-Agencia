@@ -74,6 +74,26 @@ h3 {
     justify-content: center;
 }
 
+#face:hover {
+    background-color: rgb(0, 65, 231);
+    color: var(--light-color);
+}
+
+#insta-gram:hover {
+    background-color: rgb(250, 76, 114);
+    color: var(--light-color);
+}
+
+#twt:hover {
+    background-color: rgb(24, 136, 255);
+    color: var(--light-color);
+}
+
+#wht:hover {
+    background-color: rgb(31, 191, 57);
+    color: var(--light-color);
+}
+
 .py-7 {
     padding: 7rem 0;
 }
@@ -137,10 +157,6 @@ h3 {
     border-radius: 0.3rem;
     box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
-}
-
-.social-links li a:hover {
-    opacity: 0.7;
 }
 
 /* about */
@@ -500,14 +516,6 @@ h3 {
         height: 500px;
     }
 }
-
-/*#preloader {
-    background: #000 url("../images/330.gif") no-repeat center center;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}*/
 
 .loader {
     position: fixed;

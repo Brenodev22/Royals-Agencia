@@ -529,7 +529,7 @@ h3 {
 }
 
 .loader.hidden {
-    animation: vanish 4s;
+    animation: vanish 2.5s;
     animation-fill-mode: forwards;
 }
 

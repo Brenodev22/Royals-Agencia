@@ -1,8 +1,12 @@
+// Preloader
+
 var loader = document.getElementById("preloader");
 
 window.addEventListener("load", function () {
     loader.style.display = "none";
 });
+
+// Send Emails
 
 function sendMail() {
     var params = {

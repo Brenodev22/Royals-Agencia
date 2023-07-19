@@ -68,6 +68,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 #face:hover {
@@ -126,7 +127,7 @@ h3 {
 }
 
 .header-content h1 {
-    font-size: 4.5rem;
+    font-size: 3.2rem;
     margin-bottom: 0;
     text-transform: uppercase;
     color: var(--light-color);
@@ -525,7 +526,7 @@ h3 {
 }
 
 .loader.hidden {
-    animation: vanish 2.5s;
+    animation: vanish 1.5s;
     animation-fill-mode: forwards;
 }
 

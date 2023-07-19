@@ -13,10 +13,6 @@
     outline: 0;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-}
-
 html {
     font-size: 10px;
     scroll-behavior: smooth;
